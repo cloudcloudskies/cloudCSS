@@ -462,7 +462,16 @@ textarea[placeholder*="Review @"] {
     background-color: #00000040;
 }
 
-.premiumIcon_ab5d78.icon__131d1,
+.premiumIcon_ab5d78.icon__131d1 {
+    background-image: url("https://i.postimg.cc/MKFDg7sp/1217600337125441687.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    fill: transparent;
+    color: transparent;
+}
+
 .guildBoostBadge__8bcac.guildBoostBadgeWithBoosts__9f070 {
     background-image: url("https://i.postimg.cc/MKFDg7sp/1217600337125441687.png");
     background-size: cover;
