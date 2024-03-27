@@ -1,0 +1,464 @@
+/* CloudCSS: A CSS snippet with a lot of other snippets. */
+@import url(https://raw.githubusercontent.com/nyakowint/theme-stuff/main/vencord_sc_icons.css);
+@import url(https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css);
+@import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
+@import url(https://dablulite.github.io/css-snippets/PrettyFolderIcons/import.css);
+@import url(https://dablulite.github.io/css-snippets/TogglesV2/import.css);
+@import url(https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css);
+@import url(https://dablulite.github.io/css-snippets/NitroThemesFix/import.css);
+@import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
+@import url(https://dablulite.github.io/css-snippets/DisablePIP/import.css);
+@import url(https://dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+@import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
+@import url(https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css);
+
+[href^="/channels"]:hover,
+.typeVoice_f4ba92:hover,
+.side_b4b3f6 .item__48dda:hover,
+[aria-label="Members"] .member_aa4760:hover {
+    margin-left: 5px;
+}
+
+.typeVoice_f4ba92:hover,
+[aria-label="Members"] .member_aa4760:hover {
+    margin-left: 15px;
+}
+
+.iconItem__8e3b8:has(.actionIcon_d679b5) {
+    display: none !important;
+}
+
+button.button__4f306,
+.button__4f306:last-child,
+.attachButton_b1db83 .attachButtonInner__3ce2b,
+.emojiButton__30ec7 .contents_fb6220,
+.closeButton__34341 {
+    border-radius: 50%;
+    transition: transform 1s ease;
+}
+
+.button__4f306:last-child:hover,
+.attachButton_b1db83:hover .attachButtonInner__3ce2b,
+.emojiButton__30ec7:hover .contents_fb6220,
+.closeButton__34341:hover {
+    transform: rotate(180deg);
+}
+
+.messagesWrapper_ea2b0b {
+    overflow: hidden;
+}
+
+.newMessagesBar__8b6d7 {
+    top: -48px;
+    height: 72px;
+    transition: top 0.2s ease;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.newMessagesBar__8b6d7::before {
+    content: '';
+    background: var(--brand-experiment);
+    box-shadow: var(--elevation-low);
+    width: 100%;
+    position: absolute;
+    height: 32px;
+    border-radius: 12px;
+}
+
+.newMessagesBar__8b6d7:hover {
+    top: -12px;
+}
+
+@font-face {
+    font-family: "Twemoji Mozilla";
+    src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf") format("truetype");
+    unicode-range: U+1F1E6-1F1FF;
+}
+
+@font-face {
+    font-family: "Dashless";
+    src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
+}
+
+[data-list-item-id^=channels___],
+[class^=titleWrapper] > h1,
+[class^=resultChannel],
+[class^=placeholder][class*=slateTextArea]
+{
+    font-family: "Dashless", var(--font-primary);
+}
+
+[data-list-item-id^=channels___],
+[class^=titleWrapper] > h1,
+[class^=titleWrapper] > h2,
+[id^=":r"] > h1,
+[class^=resultChannel],
+[class^=channelNameContainer_],
+[class^=searchAnswer_],
+[class^=autocompleteRowContent_] [class*=autocompleteRowHeading_],
+.channelWithIcon,
+[class^=emptyChannelIcon_] + h3,
+[class^=emptyChannelIcon_] ~ [class*=description_],
+[class^=browser_] [class*=channelText_],
+[class^=returnButton_] [class^=text-],
+[class^=placeholder][class*=slateTextArea],
+[class^=auditLog_] [class^=overflowEllipsis_] strong,
+.vc-permviewer-perms-title,
+[class^=headerChannelContainer_] > div,
+[class^=uploadDropModal_] strong,
+[class^=channelNameSpan_],
+[class^=quickswitcher_] [class^=name_] {
+    font-family: "Twemoji Mozilla", "Dashless", var(--font-primary);
+}
+
+[class^=emptyChannelIcon_] ~ [class*=description_] > * {
+    font-family: var(--font-primary);
+}
+
+.reaction_fef95b[style*="background"] {
+    pointer-events: none;
+}
+
+.mentioned__58017:hover {
+    background-color: hsla(var(--yellow-300-hsl), 0.08) !important;
+}
+
+#vc-spotify-player {
+    --blur-amount: 2px;
+    --darken-percent: 0.8;
+    background: transparent !important;
+    position: relative;
+}
+
+#vc-spotify-player > *,
+#vc-spotify-player::after {
+    position: relative;
+    z-index: 1;
+}
+
+#vc-spotify-player::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, var(--darken-percent)), rgba(0, 0, 0, var(--darken-percent))), var(--vc-spotify-track-image);
+    background-size: cover;
+    filter: blur(var(--blur-amount));
+    clip-path: inset(0);
+}
+
+.textBadge__45d79 {
+    display: none;
+}
+
+.container__1cb6c {
+    height: 42px;
+}
+
+.contentImage__8e0cb[style="width: 48px; height: 48px;"] {
+    width: 34px !important;
+    height: 34px !important;
+}
+
+.userName__206c3,
+.badgeContainer__14c9e {
+    display: none;
+    position: absolute;
+}
+
+.userSection__10b07 {
+    position: absolute;
+    font-size: 0;
+}
+
+.contentDescription__47a19 {
+    padding-left: 20px;
+}
+
+.profileBadges__7a7cb.profileBadges__7a7cb {
+    flex: none;
+}
+
+.theme-dark .backButton__576ea {
+    color: var(--white-500);
+}
+
+.activityButton__14226 {
+    position: sticky;
+    top: 0px !important;
+}
+
+.container__10dc7,
+.header__60bef,
+.scrollerContainer_bf5dbd .container__7590f {
+    background-color: var(--background-primary) !important;
+}
+
+[class^=bg_] {
+    background: url("https://raw.githubusercontent.com/coolesding/shiggycord/v3/img/snow.gif") !important;
+    background-repeat: repeat;
+}
+
+[class^=childWrapper_],
+[class*=guilds_],
+[class^=circleIconButton_],
+[class^=scroller_],
+[class^=typeWindows_],
+[class^=folder_],
+[class^=folderIconWrapper_],
+[class^=expandedFolderBackground_] {
+    background: none !important;
+}
+
+[class^=wordmarkWindows_],
+[class^=winButton],
+[class^=circleIcon_] {
+    color: #ffffff;
+}
+
+body,
+#app-mount {
+    background: var(--background-tertiary) !important;
+}
+
+#user-context-close-dm,
+#user-context-remove-friend,
+#user-context-block {
+    color: var(--status-danger);
+}
+
+#user-context-close-dm:active,
+#user-context-remove-friend:active,
+#user-context-block:active {
+    background-color: var(--red-500) !important;
+    color: var(--white-500) !important;
+}
+
+#user-context-close-dm[class*="focused-"],
+#user-context-remove-friend[class*="focused-"],
+#user-context-block[class*="focused-"] {
+    background-color: var(--button-danger-background);
+    color: var(--white-500);
+}
+
+.contents_f41bb2 .vc-platform-indicator>svg {
+    display: none;
+}
+
+.contents_f41bb2:has(svg[fill="var(--green-360"]) .avatar__08316 {
+    box-shadow: 0 0 0 2.5px #43b581;
+}
+
+.contents_f41bb2:has(svg[fill="var(--yellow-300"]) .avatar__08316 {
+    box-shadow: 0 0 0 2.5px #faa61a;
+}
+
+.contents_f41bb2:has(svg[fill="var(--red-400"]) .avatar__08316 {
+    box-shadow: 0 0 0 2.5px #f04747;
+}
+
+.contents_f41bb2:has(span[data-tag="bot"]) .avatar__08316 {
+    box-shadow: 0 0 0 2.5px #5865f2;
+}
+
+.contents_f41bb2 .username_d30d99::after {
+    content: "wrote:";
+}
+
+.message__80c10:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+    content: "wrote and edited:";
+}
+
+.message__80c10:has(.mediaAttachmentsContainer_edba75, .embed_d3cbe3) .contents_f41bb2 .username_d30d99::after {
+    content: "sent attachment(s):";
+}
+
+.message__80c10:has(.stickerAsset__00e6b) .contents_f41bb2 .username_d30d99::after {
+    content: "sent a sticker:";
+}
+
+.message__80c10:has(.emoji.jumboable) .contents_f41bb2 .username_d30d99::after {
+    content: "sent emoji(s):";
+}
+
+.hasReply_febd50 .contents_f41bb2 .username_d30d99::after {
+    content: "replied:";
+}
+
+.message__80c10.hasReply_febd50:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+    content: "replied and edited:";
+}
+
+.mentioned__58017 .contents_f41bb2 .username_d30d99::after {
+    content: "mentioned:";
+}
+
+.mentioned__58017:has(.edited_b20dd9) .contents_f41bb2 .username_d30d99::after {
+    content: "mentioned and edited:";
+}
+
+.contents_f41bb2 .username_d30d99::after {
+    color: var(--text-muted);
+}
+
+.edited_b20dd9 {
+    font-size: 0;
+}
+
+.cozy_f5c119 .header__39b23 {
+    margin-bottom: 4px;
+}
+
+.contents_f41bb2 .username_d30d99,
+.base__512ed .text_ca54e9 strong,
+.name__4c9aa,
+.repliedMessage_e2bf4a > .username_d30d99,
+.member_aa4760 .username_d272d6 {
+    background: color-mix(in srgb, currentColor 25%, rgba(0, 0, 0, 0.25));
+    text-shadow: 0 0 5px color-mix(in srgb, currentColor 25%, #000);
+    margin-right: 4px;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+.username_d30d99::after {
+    position: relative;
+    margin: 0 0 0 8px;
+}
+
+.username_d30d99:not([style]),
+.repliedMessage_e2bf4a > .username_d30d99 {
+    color: var(--brand-experiment-100);
+}
+
+.username_d30d99,
+.repliedMessage_e2bf4a > .username_d30d99 {
+    text-shadow: 0 0 5px #000;
+}
+
+.standardSidebarView__1129a {
+  top: 0;
+}
+
+.layer__2efaa + .layer__2efaa {
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px black;
+  border: 1px solid var(--border-strong);
+  width: 1100px;
+  height: 80vh;
+  margin: auto;
+  padding: 0;
+}
+
+#app-mount .baseLayer__8fda3 {
+  opacity: 1;
+  transform: none;
+}
+
+[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+
+.theme-dark .backButton__576ea {
+  color: var(--white-500);
+}
+
+:root {
+  --blur: 20px;
+  --opacity: 0.5;
+  --radius: 8px;
+}
+
+.message-2CShn3 {
+    margin-left: 16px;
+    border-radius: 10px;
+}
+
+.message-2CShn3.mentioned-Tre-dv:before {
+    width: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+div#vc-spotify-progress-bar > div.sliderContainer-3vLXjN > div.slider-1mmyV6.slider-cXPmnn.mini-28oMa3 > div.bar-2H7Q9u > div.barFill-3RgCsY {
+  background: var(--bg-overlay-1, var(--background-secondary-alt));
+  overflow: visible;
+}
+
+div#vc-spotify-progress-bar > div.sliderContainer-3vLXjN > div.slider-1mmyV6.slider-cXPmnn.mini-28oMa3 > div.bar-2H7Q9u > div.barFill-3RgCsY::after {
+
+.base-2jDfDU {
+    border-top-left-radius: 5px;
+}
+
+.content-yjf30S .content-1gYQeQ {
+    align-items: center;
+}
+
+.content-yjf30S .children-1MGS9G {
+    padding-top: 0;
+}
+
+:root {
+  --channel-bg: #b00b6925;
+  --channel-border: #b00b69ff;
+  --channel-curve: 0.75rem;
+  --channel-border-thickness: 2px;
+}
+
+[class*=link] {
+  border-radius: var(--channel-curve);
+}
+
+:not([class*=container-]) > ul > [class*=containerDefault-],
+[class*=container-] > ul > [class*=containerDefault-] {
+  border-radius: var(--channel-curve);
+}
+
+[class*=containerDefault-][class*=selected-] > div > div > [class*=link],
+[class*=containerDefault-][class*=selected-] > [class*=wrapper-] > [class*=link-],
+[class*=iconVisibility-][class*=wrapper-][class*=modeSelected-] > div > [class*=link-],
+[class*=modeConnected-] > div > [class*=link-],
+[class*=iconVisibility-][class*=wrapper-] > div > [class*=link-],
+[class*=containerDefault-] > [class*=list-] > div > div > div,
+[class*=icon-] {
+  background: var(--channel-bg);
+  border: var(--channel-border-thickness) solid var(--channel-border);
+}
+
+[class*=containerDefault] > div > div > a > div > div > svg {
+  width: 15px;
+  height: 15px;
+}
+
+:not([class*=container-]) > ul > [class*=containerDefault-]:hover > div > div > [class*=link],
+[class*=container-] > ul > [class*=containerDefault-]:hover > [class*=wrapper-] > [class*=link-],
+[class*=iconVisibility-][class*=wrapper-]:hover > div > [class*=link-],
+[class*=containerDefault-] > [class*=list-] > div:hover > div > div {
+  border-color: var(--channel-border) !important;
+}
+
+[class*=unread-] {
+  display: none;
+}
+
+[class*=modeUnread] [class*=icon-],
+[class*=containerDefault-][class*=selected-] [class*=icon-],
+[class*=modeSelected-] [class*=icon-],
+[class*=containerDefault-]:hover [class*=icon-] {
+  color: var(--channel-border) !important;
+}
+
+button[aria-label="Send a gift"],
+button[aria-label="Open GIF picker"],
+button[aria-label="Open sticker picker"]
+{ display: none; }
+
+[class^=wumpusWrapper] { display: none; }
+
+textarea[placeholder*="Review @"] {
+    background-color: #00000040;
+}
