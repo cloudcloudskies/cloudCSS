@@ -528,3 +528,13 @@ textarea[placeholder*="Review @"] {
     margin-right: 2px;
     margin-left: -6px;
 }
+
+[class*=messageContent] h1,
+[class*=messageContent] h2,
+[class*=messageContent] h3 {
+  color: salmon;
+}
+
+[class*=messageContent] strong {
+  color: lightsalmon;
+}
