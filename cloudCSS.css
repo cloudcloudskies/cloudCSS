@@ -27,20 +27,24 @@
     display: none !important;
 }
 
-button.button_ae40a4,
-.button_ae40a4:last-child,
-.attachButton__56f98 .attachButtonInner__84c26,
-.emojiButton_b63c38 .contents__322f4,
-.closeButton__8177f {
+button.button__4f306 {
     border-radius: 50%;
+}
+
+.button__4f306:last-child .contents_fb6220, 
+.attachButton_b1db83 .attachButtonInner__3ce2b, 
+.emojiButton__30ec7 .contents_fb6220, 
+.closeButton__34341, 
+.contents_fb6220 > .closeIcon__5bab9 {
     transition: transform 1s ease;
 }
 
-.button_ae40a4:last-child:hover,
-.attachButton__56f98:hover .attachButtonInner__84c26,
-.emojiButton_b63c38:hover .contents__322f4,
-.closeButton__8177f:hover {
-    transform: rotate(180deg);
+.button__4f306:last-child:hover .contents_fb6220,
+.attachButton_b1db83:hover .attachButtonInner__3ce2b,
+.emojiButton__30ec7:hover .contents_fb6220,
+.closeButton__34341:hover,
+.contents_fb6220:hover > .closeIcon__5bab9 {
+    transform: rotate(360deg);
 }
 
 .messagesWrapper_add28b {
