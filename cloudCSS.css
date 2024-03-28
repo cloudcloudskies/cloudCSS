@@ -173,7 +173,7 @@ button.button_ae40a4,
     padding-left: 20px;
 }
 
-.profileBadges__1f2ab.profileBadges__1f2ab {
+[class^="profileBadges"][class^="profileBadges"] {
     flex: none;
 }
 
