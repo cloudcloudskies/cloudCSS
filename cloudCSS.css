@@ -71,25 +71,19 @@ button.button__4f306,
 }
 
 @font-face {
-    font-family: "Twemoji Mozilla";
-    src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf") format("truetype");
-    unicode-range: U+1F1E6-1F1FF;
+  font-family: "Twemoji Mozilla";
+  src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf") format("truetype");
+  unicode-range: U+1F1E6-1F1FF;
 }
 
 @font-face {
-    font-family: "Dashless";
-    src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
+  font-family: "dashless";
+  size-adjust: 100%;
+  src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
+  unicode-range: U+002D;
 }
 
-[data-list-item-id^=channels___],
-[class^=titleWrapper] > h1,
-[class^=resultChannel],
-[class^=placeholder][class*=slateTextArea]
-{
-    font-family: "Dashless", var(--font-primary);
-}
-
-[data-list-item-id^=channels___],
+[data-list-item-id^=channels___]:not([role=button]),
 [class^=titleWrapper] > h1,
 [class^=titleWrapper] > h2,
 [id^=":r"] > h1,
@@ -109,11 +103,11 @@ button.button__4f306,
 [class^=uploadDropModal_] strong,
 [class^=channelNameSpan_],
 [class^=quickswitcher_] [class^=name_] {
-    font-family: "Twemoji Mozilla", "Dashless", var(--font-primary);
+  font-family: "Twemoji Mozilla", "dashless", var(--font-primary);
 }
 
 [class^=emptyChannelIcon_] ~ [class*=description_] > * {
-    font-family: var(--font-primary);
+  font-family: var(--font-primary);
 }
 
 .reaction_fef95b[style*="background"] {
@@ -196,11 +190,6 @@ button.button__4f306,
 .header__60bef,
 .scrollerContainer_bf5dbd .container__7590f {
     background-color: var(--background-primary) !important;
-}
-
-[class^=bg_] {
-    background: url("https://raw.githubusercontent.com/coolesding/shiggycord/v3/img/snow.gif") !important;
-    background-repeat: repeat;
 }
 
 [class^=childWrapper_],
@@ -363,12 +352,6 @@ body,
 
 .theme-dark .backButton__576ea {
   color: var(--white-500);
-}
-
-:root {
-  --blur: 20px;
-  --opacity: 0.5;
-  --radius: 8px;
 }
 
 .message-2CShn3 {
