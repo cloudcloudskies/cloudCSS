@@ -464,3 +464,40 @@ textarea[placeholder*="Review @"] {
     fill: transparent;
     color: transparent;
 }
+
+.buttons_ce5b56 {
+    margin: 6px auto;
+    max-width: 240px;
+    min-width: 80px;
+    width: min-content;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap-reverse;
+    flex-grow: 1;
+    height: fit-content;
+    justify-content: flex-end;
+}
+
+.buttons_ce5b56 .buttonContainer__8b164,
+.buttons_ce5b56 > .button_afdfd9 {
+    width: 40px;
+}
+
+.separator__8424b {
+    margin: 0;
+    justify-content: center;
+    width: 40px;
+}
+
+.separator__8424b::before {
+    content: none;
+}
+
+.separator__8424b .innerButton_debeee {
+    margin: 0;
+}
+
+.textArea__74543 {
+    width: fit-content;
+    flex-grow: 1;
+}
