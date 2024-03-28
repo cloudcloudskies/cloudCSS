@@ -505,3 +505,46 @@ textarea[placeholder*="Review @"] {
     width: fit-content;
     flex-grow: 1;
 }
+
+[class^="jumpToPresentBar"] {
+    display: contents;
+}
+
+[class^="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+
+[class^="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px;
+    background-color: #2e353b20;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0;
+    color: transparent;
+    transition: all 0.4s ease;
+}
+
+[class^="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0;
+    height: 24px;
+    width: 24px;
+    color: #fff;
+    transition: margin 0.6s;
+}
+
+[class^="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px;
+    font-size: 14px;
+    color: #fff;
+}
+
+[class^="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
