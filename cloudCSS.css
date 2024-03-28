@@ -238,26 +238,6 @@ body,
     color: var(--white-500);
 }
 
-.contents_d3ae0d .vc-platform-indicator>svg {
-    display: none;
-}
-
-.contents_d3ae0d:has(svg[fill="var(--green-360"]) .avatar__08316 {
-    box-shadow: 0 0 0 2.5px #43b581;
-}
-
-.contents_d3ae0d:has(svg[fill="var(--yellow-300"]) .avatar__08316 {
-    box-shadow: 0 0 0 2.5px #faa61a;
-}
-
-.contents_d3ae0d:has(svg[fill="var(--red-400"]) .avatar__08316 {
-    box-shadow: 0 0 0 2.5px #f04747;
-}
-
-.contents_d3ae0d:has(span[data-tag="bot"]) .avatar__08316 {
-    box-shadow: 0 0 0 2.5px #5865f2;
-}
-
 .contents_d3ae0d .username__0b0e7::after {
     content: "wrote:";
 }
