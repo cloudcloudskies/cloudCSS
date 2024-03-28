@@ -538,3 +538,20 @@ textarea[placeholder*="Review @"] {
 [class*=messageContent] strong {
   color: lightsalmon;
 }
+
+.wrapper__7bcde .link__95dc0,
+.container__4f20e,
+.channel_c21703,
+.side_b4b3f6 .item__48dda {
+    transition: margin-left 0.2s ease;
+}
+
+.wrapper__7bcde:hover .link__95dc0,
+.side_b4b3f6 .item__48dda:hover {
+    margin-left: 10px;
+}
+
+.container__4f20e:hover,
+.channel_c21703:hover {
+    margin-left: 18px;
+}
