@@ -292,7 +292,6 @@ body,
 .repliedMessage__636d2 > .username__0b0e7,
 .member_aa4760 .username_d272d6 {
     background: color-mix(in srgb, currentColor 25%, rgba(0, 0, 0, 0.25));
-    text-shadow: 0 0 5px color-mix(in srgb, currentColor 25%, #000);
     margin-right: 4px;
     padding: 0 4px;
     border-radius: 4px;
