@@ -10,6 +10,7 @@
 @import url(https://dablulite.github.io/css-snippets/DisablePIP/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterTitlebar/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
+@import url(https://raw.githubusercontent.com/cloudcloudskies/connectionsGlow/main/connectionGlow.css);
 
 [href^="/channels"]:hover,
 .typeVoice__86122:hover,
@@ -553,4 +554,49 @@ textarea[placeholder*="Review @"] {
 .container_a48b21:hover,
 .channel__0aef5:hover {
     margin-left: 18px;
+}
+
+.marketingButtonImage_bc16c8.marketingButtonImageHovered__04e22,
+.shyButton__30111 {
+  display: none;
+}
+
+.newBadge__5fcc2.textBadge_f05120.base__5ed84.eyebrow_c15ff6.baseShapeRound_c1de89 {
+  display: none;
+}
+
+.countDownWrapper__60b05 {
+  position: absolute;
+  top: 200px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: var(--white-500) !important;
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.shyBanner__78fa4 {
+  box-shadow: none;
+}
+
+.cardTextBlur__118a2 {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: var(--background-tertiary);
+}
+
+.collectibleInfoContainer_a9bb77 {
+  background: var(--background-tertiary) !important;
+}
+
+.darkText_c58a34,
+.darkText__536f8 {
+  color: var(--white-500);
+}
+
+.darkText_c58a34 {
+  border-color: var(--white-500);
 }
