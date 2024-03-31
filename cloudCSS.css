@@ -600,3 +600,18 @@ textarea[placeholder*="Review @"] {
 .darkText_c58a34 {
   border-color: var(--white-500);
 }
+
+.container__827e6 video.ready__61f2f {
+    display: none;
+}
+
+.content_de05de::before {
+    visibility: visible;
+    content: '';
+    display: block;
+    background: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=240) center/contain no-repeat;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    margin-bottom: 48px;
+}
