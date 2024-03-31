@@ -665,3 +665,9 @@ textarea[placeholder*="Review @"] {
 .backdrop__1a911 {
     background: rgba(0, 0, 0, 0.7) !important;
 }
+
+[class*="lineClamp2Plus_"] {
+  overflow-y: auto;
+  scrollbar-color: grey transparent;
+  scrollbar-width: thin;
+}
