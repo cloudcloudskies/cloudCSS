@@ -609,10 +609,7 @@ textarea[placeholder*="Review @"] {
     visibility: visible;
     content: '';
     display: block;
-    background: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=240);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=240) center/contain no-repeat;
     width: 128px;
     height: 128px;
     margin: auto;
