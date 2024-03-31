@@ -618,3 +618,12 @@ textarea[placeholder*="Review @"] {
     margin: auto;
     margin-bottom: 48px;
 }
+
+.modal_d2e7a7 {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+
+.backdrop__1a911 {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
