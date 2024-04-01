@@ -815,23 +815,26 @@ textarea[placeholder*="Review @"] {
 .wrapper__8a5dd {
   width: 100%;
   max-width: 300px;
+  height: auto;
   background-color: #6b6868a6;
-  padding: 20px;
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+ 
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .header__4ecb7 {
   font-size: 12px;
-  margin: 0;
+  margin-top: 0;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
+  width: 100%;
 }
 
 .button_f73214 {
-  align-items: center;
+  align-items: center; 
   margin-top: 20px;
   padding: 12px 24px;
   background-color: #4caf50;
@@ -856,5 +859,5 @@ textarea[placeholder*="Review @"] {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
