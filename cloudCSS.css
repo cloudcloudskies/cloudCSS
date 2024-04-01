@@ -14,6 +14,16 @@
 @import url(https://raw.githubusercontent.com/cloudcloudskies/connectionsGlow/main/connectionGlow.css);
 @import url(https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css);
 
+/* Settings */
+:root {
+    --channellist-width: 240px;
+    --channellist-header-height: 48px;
+    --channel-bg: #b00b6925;
+    --channel-border: #b00b69ff;
+    --channel-curve: 0.75rem;
+    --channel-border-thickness: 2px;
+}
+
 [href^="/channels"]:hover,
 .typeVoice__86122:hover,
 .side_b4b3f6 .item__48dda:hover,
@@ -366,13 +376,6 @@ div#vc-spotify-progress-bar > div.sliderContainer__1d624 > div.slider__22e99.sli
 
 .content__690c5 .children__563f2 {
     padding-top: 0;
-}
-
-:root {
-  --channel-bg: #b00b6925;
-  --channel-border: #b00b69ff;
-  --channel-curve: 0.75rem;
-  --channel-border-thickness: 2px;
 }
 
 [class*=link] {
