@@ -429,26 +429,6 @@ textarea[placeholder*="Review @"] {
     background-color: #00000040;
 }
 
-.premiumIcon__58b74.icon__07c5b {
-    background-image: url("https://raw.githubusercontent.com/cloudcloudskies/cloudCSS/main/boosterImage.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    fill: transparent;
-    color: transparent;
-}
-
-.guildBoostBadge_aa7afd.guildBoostBadgeWithBoosts__2522e {
-    background-image: url("https://raw.githubusercontent.com/cloudcloudskies/cloudCSS/main/boosterImage.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    fill: transparent;
-    color: transparent;
-}
-
 .buttons__7ecff {
     margin: 6px auto;
     max-width: 240px;
