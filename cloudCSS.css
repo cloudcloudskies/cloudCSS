@@ -811,3 +811,50 @@ textarea[placeholder*="Review @"] {
   scrollbar-color: grey transparent;
   scrollbar-width: thin;
 }
+
+.wrapper__8a5dd {
+  width: 100%;
+  max-width: 300px;
+  background-color: #6b6868a6;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__4ecb7 {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.button_f73214 {
+  align-items: center;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.button_f73214:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.guildIconImage_c1aa48 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 10px;
+}
