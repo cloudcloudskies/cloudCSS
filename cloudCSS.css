@@ -355,8 +355,6 @@ div#vc-spotify-progress-bar > div.sliderContainer__1d624 > div.slider__22e99.sli
   overflow: visible;
 }
 
-div#vc-spotify-progress-bar > div.sliderContainer__1d624 > div.slider__22e99.slider__28a57.mini_d6d84c > div.bar_e58961 > div.barFill__1f56b::after {
-
 .base_c0676e {
     border-top-left-radius: 5px;
 }
@@ -508,16 +506,6 @@ textarea[placeholder*="Review @"] {
 [class^="jumpToPresentBar"]:hover > button svg {
     margin-right: 2px;
     margin-left: -6px;
-}
-
-[class*=messageContent] h1,
-[class*=messageContent] h2,
-[class*=messageContent] h3 {
-  color: salmon;
-}
-
-[class*=messageContent] strong {
-  color: lightsalmon;
 }
 
 .wrapper__612a5 .link_ddbb36,
