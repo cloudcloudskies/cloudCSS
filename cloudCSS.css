@@ -820,7 +820,7 @@ textarea[placeholder*="Review @"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+
   padding: 20px;
   border-radius: 20px;
 }
