@@ -660,16 +660,6 @@ textarea[placeholder*="Review @"] {
     margin-left: -6px;
 }
 
-[class*=messageContent] h1,
-[class*=messageContent] h2,
-[class*=messageContent] h3 {
-  color: salmon;
-}
-
-[class*=messageContent] strong {
-  color: lightsalmon;
-}
-
 .wrapper__612a5 .link_ddbb36,
 .container_a48b21,
 .channel__0aef5,
