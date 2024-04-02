@@ -44,7 +44,7 @@ button.button_ae40a4 {
     border-radius: 50%;
 }
 
-.button_ae40a4:last-child .contents__322f4,
+.contents__322f4,
 .attachButton__56f98 .attachButtonInner__84c26,
 .emojiButton_b63c38 .contents__322f4,
 .closeButton__8177f,
@@ -52,7 +52,7 @@ button.button_ae40a4 {
     transition: transform 1s ease;
 }
 
-.button_ae40a4:last-child:hover .contents__322f4,
+.contents__322f4,
 .attachButton__56f98:hover .attachButtonInner__84c26,
 .emojiButton_b63c38:hover .contents__322f4,
 .closeButton__8177f:hover,
