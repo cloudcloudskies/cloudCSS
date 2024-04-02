@@ -815,19 +815,15 @@ textarea[placeholder*="Review @"] {
 .wrapper__8a5dd {
   width: 100%;
   max-width: 300px;
-  height: auto;
-  background-color: #6b6868a6;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding: 20px;
-  border-radius: 20px;
 }
 
 .header__4ecb7 {
   font-size: 12px;
-  margin-top: 0;
+  margin-top: 10px;
   text-align: center;
   color: #ffffff;
   width: 100%;
@@ -859,5 +855,20 @@ textarea[placeholder*="Review @"] {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 10px; 
+  margin-top: 15px; 
 }
+
+.guildName__22ec8 {
+   margin-top: 15px;
+}
+
+.sprite__294b3.spriteColored__9a869 {
+    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+    background-size: 24px;
+}
+
+.sprite__294b3.spriteGreyscale__750f4 {
+    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+    mask-size: 24px;
+}
+
