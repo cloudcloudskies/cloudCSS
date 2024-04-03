@@ -546,43 +546,6 @@ textarea[placeholder*="Review @"] {
   border-color: var(--white-500);
 }
 
-.avatar__991e2[src^="https://cdn.discordapp.com/avatars/1081004946872352958"] {
-    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
-}
-
-.avatar__991e2[src$="size=80"] {
-    width: 90px !important;
-    height: 90px !important;
-}
-
-[aria-label="clyde"] .userTagUsernameNoNickname__0513b {
-    visibility: hidden;
-}
-
-[aria-label="clyde"] .userTagUsernameNoNickname__0513b::before {
-    content: "Viggy";
-    visibility: visible;
-    width: 10px;
-}
-
-[aria-label="clyde"] .headerBotTag_b741ff,
-[aria-label="clyde"] .popoutBannerPremium__84487,
-[aria-label="clyde"] .textBadge_f05120 {
-    display: none;
-    visibility: visible;
-    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
-}
-
-[aria-label="clyde"] .textBadge_f05120 {
-    min-width: 30px !important;
-    min-height: 30px !important;
-    height: 30px !important;
-    padding: 0;
-}
-
-[aria-label="clyde"] .base__5ed84 {
-    background-color: transparent !important;
-}
 .container__827e6 video.ready__61f2f {
     display: none;
 }
