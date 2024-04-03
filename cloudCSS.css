@@ -897,3 +897,7 @@ textarea[placeholder*="Review @"] {
     background-color: goldenrod;
     color: #fff;
 }
+
+.reaction_fef95b[style*="background"] {
+  pointer-events: none;
+}
