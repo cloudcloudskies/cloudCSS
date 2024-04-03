@@ -808,3 +808,7 @@ textarea[placeholder*="Review @"] {
         background-position: -64px -32px;
     }
 }
+
+.wordmarkWindows_ffbc5e::after {
+    content: "cloudCord";
+}
