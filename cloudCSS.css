@@ -919,3 +919,6 @@ textarea[placeholder*="Review @"] {
     line-height: 20px;
     font-size: 14px;
 }
+
+.attachmentContentItem_ef9fc2 { width: unset !important; height: unset !important; }
+.loadingOverlay__4d818 { aspect-ratio: unset !important }
