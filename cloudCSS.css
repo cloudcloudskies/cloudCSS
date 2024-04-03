@@ -831,3 +831,7 @@ textarea[placeholder*="Review @"] {
 [class^="accountProfilePopoutWrapper-"] .ReviewDB {
     padding-top: 12px;
 }
+
+[href="/shop"], [href="/store"] {
+  display: none;
+}
