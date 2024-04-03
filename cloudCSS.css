@@ -926,4 +926,5 @@ textarea[placeholder*="Review @"] {
 
 .layer_f7d46a.stop-animations .container_d1f8f5 {
     filter: blur(5px);
+    pointer-events: none;
 }
