@@ -1,19 +1,15 @@
-/* most of this is from the vencord discord server, go join! https://vencord.dev/discord */
-
+@import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/randomfixes.theme.css);
 @import url(https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css);
 @import url(https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css);
-@import url(https://ukrio.is-a.dev/cssCord/Other/TabCord.css);
 @import url(https://dablulite.github.io/css-snippets/UserReimagined/import.css);
 @import url(https://dablulite.github.io/css-snippets/CyanUI2-Ports/Bootup/import.css);
 @import url(https://dablulite.github.io/css-snippets/NitroThemesFix/import.css);
-@import url(https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/main.css);
-@import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/randomfixes.theme.css);
-@import url(https://dablulite.github.io/css-snippets/PrettyFolderIcons/import.css);
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/modalsettings.theme.css);
+@import url(https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/main.css);
 /* ONLY WORKS IF YOU HAVE ThemeAttributes ENABLED IN VENCORD */
 @import url(https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css);
 
-.reaction_fef95b[style*="background"] {
+.reaction__4a43f[style*="background"] {
     pointer-events: none;
 }
 
@@ -42,11 +38,11 @@
     font-size: 14px;
 }
 
-.messagesWrapper_ea2b0b {
+.messagesWrapper_add28b {
     overflow: hidden;
 }
 
-.newMessagesBar__8b6d7 {
+.newMessagesBar__8b272 {
     top: -48px;
     height: 72px;
     transition: top 0.2s ease;
@@ -55,7 +51,7 @@
     border-radius: 0;
 }
 
-.newMessagesBar__8b6d7::before {
+.newMessagesBar__8b272::before {
     content: '';
     background: var(--brand-experiment);
     box-shadow: var(--elevation-low);
@@ -65,7 +61,7 @@
     border-radius: 12px;
 }
 
-.newMessagesBar__8b6d7:hover {
+.newMessagesBar__8b272:hover {
     top: -12px;
 }
 
@@ -82,34 +78,34 @@
     scrollbar-color: unset !important;
 }
 
-.textBadge__45d79 {
+.textBadge_f05120 {
     display: none;
 }
 
-.container__1cb6c {
+.container__8d997 {
     height: 42px;
 }
 
-.contentImage__8e0cb[style="width: 48px; height: 48px;"] {
+.contentImage__1c893[style="width: 48px; height: 48px;"] {
     width: 34px !important;
     height: 34px !important;
 }
 
-.userName__206c3 {
+.userName__23133 {
     display: none;
     position: absolute;
 }
 
-.badgeContainer__14c9e {
+.badgeContainer__5607c {
     display: none;
     position: absolute;
 }
 
-.userSection__10b07 {
+.userSection__9a4c1 {
     position: absolute;
     font-size: 0;
 }
 
-.contentDescription__47a19 {
+.contentDescription_e07aa0 {
     padding-left: 20px;
 }
