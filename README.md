@@ -12,11 +12,11 @@ To install cloudCSS into Vencord, follow these simple steps:
    
    Add the following line to your QuickCSS file:
    ```css
-   @import url(https://cloudcloudskies.github.io/cloudCSS/main/cloudCSS.css);
+   @import url(https://cloudcloudskies.github.io/cloudCSS/cloudCSS.css);
    ```
    Mini version:
    ```css
-   @import url(https://cloudcloudskies.github.io/cloudCSS/main/cloudCSSmini.css);
+   @import url(https://cloudcloudskies.github.io/cloudCSS/cloudCSSmini.css);
    ```
 
   or
@@ -25,11 +25,11 @@ To install cloudCSS into Vencord, follow these simple steps:
    
    For Vencord users, seamlessly incorporate cloudCSS into your online themes by adding this URL:
    ```
-   https://cloudcloudskies.github.io/cloudCSS/main/cloudCSS.css
+   https://cloudcloudskies.github.io/cloudCSS/cloudCSS.css
    ```
    Mini version:
    ```
-   https://cloudcloudskies.github.io/cloudCSS/main/cloudCSSmini.css
+   https://cloudcloudskies.github.io/cloudCSS/cloudCSSmini.css
    ```
 
 #### Features
