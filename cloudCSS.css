@@ -20,7 +20,7 @@
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/modalsettings.theme.css);
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/dashless-extended.theme.css);
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/randomfixes.theme.css);
-
+@import url(https://ukrio.is-a.dev/cssCord/Other/TabCord.css);
 
 /* Settings */
 :root {
@@ -785,3 +785,5 @@ textarea[placeholder*="Review @"] {
     scrollbar-width: unset !important;
     scrollbar-color: unset !important;
 }
+
+[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
