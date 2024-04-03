@@ -780,3 +780,8 @@ textarea[placeholder*="Review @"] {
 [href="/shop"], [href="/store"] {
   display: none;
 }
+
+* {
+    scrollbar-width: unset !important;
+    scrollbar-color: unset !important;
+}
