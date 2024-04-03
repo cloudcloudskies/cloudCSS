@@ -2,6 +2,8 @@
 
 cloudCSS is a versatile and lightweight CSS snippet packed with an array of useful sub-snippets. It's designed to make your Discord experience better.
 
+Now includes mini version!
+
 #### Installation
 
 To install cloudCSS into Vencord, follow these simple steps:
@@ -12,6 +14,7 @@ To install cloudCSS into Vencord, follow these simple steps:
    ```css
    @import url(https://raw.githubusercontent.com/cloudcloudskies/cloudCSS/main/cloudCSS.css);
    ```
+
   or
 
 2. **Online Themes:**
