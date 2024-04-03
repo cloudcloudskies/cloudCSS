@@ -20,6 +20,7 @@
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/modalsettings.theme.css);
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/dashless-extended.theme.css);
 @import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/randomfixes.theme.css);
+@import url(https://minidiscordthemes.github.io/SettingsIcons/main.min.css);
 
 /* Settings */
 :root {
@@ -29,6 +30,9 @@
     --channel-border: #b00b69ff;
     --channel-curve: 0.75rem;
     --channel-border-thickness: 2px;
+    --settingsicons: 1;
+    --si-size: 18px;
+    --si-gap: 14px;
 }
 
 [href^="/channels"]:hover,
@@ -900,4 +904,18 @@ textarea[placeholder*="Review @"] {
 
 .reaction_fef95b[style*="background"] {
   pointer-events: none;
+}
+
+#experiments-tab [class^="description_"] { overflow: hidden; }
+#experiments-tab [class^="description_"] div:first-of-type { float: left; }
+#experiments-tab [class^="description_"] div+div {
+    font-size: 0;
+    line-height: 0; 
+    float: right;
+}
+#experiments-tab [class^="description_"] div+div:after {
+    filter: grayscale();
+    content: "⚠ No server configuration";
+    line-height: 20px;
+    font-size: 14px;
 }
