@@ -14,7 +14,7 @@ To install cloudCSS into Vencord, follow these simple steps:
    ```css
    @import url(https://cloudcloudskies.github.io/cloudCSS/main/cloudCSS.css);
    ```
-   And for cloudCSS Mini:
+   Mini version:
    ```css
    @import url(https://cloudcloudskies.github.io/cloudCSS/main/cloudCSSmini.css);
    ```
@@ -27,7 +27,7 @@ To install cloudCSS into Vencord, follow these simple steps:
    ```
    https://cloudcloudskies.github.io/cloudCSS/main/cloudCSS.css
    ```
-      And for cloudCSS Mini:
+  Mini version:
    ```
    https://cloudcloudskies.github.io/cloudCSS/main/cloudCSSmini.css
    ```
