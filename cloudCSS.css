@@ -808,3 +808,24 @@ textarea[placeholder*="Review @"] {
 .guildName__22ec8 {
    margin-top: 15px;
 }
+
+[class^="userInfo-"] [class^="containerWithContent-"][class*="container-"] {
+    justify-content: initial;
+    padding: initial;
+}
+
+.info-3pQQBb {
+    text-transform: none;
+}
+
+.info-3pQQBb > span:first-letter {
+    text-transform: uppercase;
+}
+
+:root {
+    letter-spacing: 0.009rem;
+}
+
+[class^="accountProfilePopoutWrapper-"] .ReviewDB {
+    padding-top: 12px;
+}
