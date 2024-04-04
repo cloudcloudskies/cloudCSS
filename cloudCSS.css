@@ -809,7 +809,7 @@ textarea[placeholder*="Review @"] {
 }
 
 #oneko {
-    z-index: 10000;
+    z-index: 999999;
     pointer-events: none;
 }
 
