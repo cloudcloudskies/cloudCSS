@@ -784,11 +784,6 @@ textarea[placeholder*="Review @"] {
   display: none;
 }
 
-* {
-    scrollbar-width: unset !important;
-    scrollbar-color: unset !important;
-}
-
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
 
 [class^="channelTextArea"]::before {
@@ -936,4 +931,9 @@ img[role="presentation"] {
 
 [class*="pollContainer_"] {
   background-color: var(--background-secondary);
+}
+
+* {
+    scrollbar-width: unset !important;
+    scrollbar-color: unset !important;
 }
