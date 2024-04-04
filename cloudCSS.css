@@ -928,3 +928,8 @@ textarea[placeholder*="Review @"] {
     filter: blur(5px);
     pointer-events: none;
 }
+
+img[role="presentation"] {
+  content: url('https://cdn.discordapp.com/emojis/1161713157794963536.webp?size=128&quality=lossless') !important;
+  transform: rotate(0deg) !important;
+}
