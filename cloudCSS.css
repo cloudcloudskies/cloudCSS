@@ -808,6 +808,11 @@ textarea[placeholder*="Review @"] {
     }
 }
 
+#oneko {
+    z-index: 10000;
+    pointer-events: none;
+}
+
 .wordmarkWindows_ffbc5e::after {
     content: "cloudCord";
 }
