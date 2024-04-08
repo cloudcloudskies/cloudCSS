@@ -710,7 +710,7 @@ textarea[placeholder*="Review @"] {
 .wrapper__8a5dd {
   width: 100%;
   max-width: 300px;
-  background-color: var(--background-tertiary);
+  background-color: var(--background-modifier-accent);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -727,10 +727,10 @@ textarea[placeholder*="Review @"] {
 }
 
 .button_f73214 {
-  align-items: center; 
+  align-items: center;
   margin-top: 20px;
   padding: 12px 24px;
-  background-color: var(--brand-experiment);
+  background-color: var(--background-tertiary);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -738,9 +738,8 @@ textarea[placeholder*="Review @"] {
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
-
 .button_f73214:hover {
-  background-color: var(--brand-experiment);
+  background-color: var(--background-tertiary);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   transform: scale(1.05);
@@ -752,11 +751,12 @@ textarea[placeholder*="Review @"] {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 .guildName__22ec8 {
-   margin-top: 15px;
+  color: var(--text-normal);
+  margin-top: 15px;
 }
 
 [class^="userInfo-"] [class^="containerWithContent-"][class*="container-"] {
