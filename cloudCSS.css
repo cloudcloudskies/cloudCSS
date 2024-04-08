@@ -1,26 +1,28 @@
 /* CloudCSS: A CSS snippet with a lot of other snippets. */
 /* Credits to a lot of people on Vencord's Discord server! */
-@import url(https://raw.githubusercontent.com/nyakowint/theme-stuff/main/vencord_sc_icons.css);
+@import url(https://raw.githack.com/nyakowint/theme-stuff/main/vencord_sc_icons.css);
 @import url(https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
 @import url(https://dablulite.github.io/css-snippets/PrettyFolderIcons/import.css);
 @import url(https://dablulite.github.io/css-snippets/TogglesV2/import.css);
 @import url(https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css);
 @import url(https://dablulite.github.io/css-snippets/NitroThemesFix/import.css);
-@import url(https://raw.githubusercontent.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
+@import url(https://raw.githack.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 @import url(https://dablulite.github.io/css-snippets/DisablePIP/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterTitlebar/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
-@import url(https://raw.githubusercontent.com/cloudcloudskies/connectionsGlow/main/connectionGlow.css);
+@import url(https://raw.githack.com/cloudcloudskies/connectionsGlow/main/connectionGlow.css);
 @import url(https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css);
 @import url(https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css);
 @import url(https://minidiscordthemes.github.io/Snippets/EfficientSettings/main.css);
 @import url(https://minidiscordthemes.github.io/Snippets/ImageLink/main.css);
 @import url(https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/main.css);
-@import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/modalsettings.theme.css);
-@import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/dashless-extended.theme.css);
-@import url(https://raw.githubusercontent.com/nvhhr/discordcss/main/snippets/randomfixes.theme.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/modalsettings.theme.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/dashless-extended.theme.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/randomfixes.theme.css);
 @import url(https://minidiscordthemes.github.io/SettingsIcons/main.min.css);
+@import url(https://raw.githack.com/KrstlSkll69/vc-snippets/main/NSFWChannelRecolor.css);
+@import url(https://raw.githack.com/KrstlSkll69/vc-snippets/main/PrivateChannelRecolor.css);
 
 /* Settings */
 :root {
@@ -795,7 +797,7 @@ textarea[placeholder*="Review @"] {
     position: absolute;
     image-rendering: pixelated;
     pointer-events: none;
-    background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif");
+    background-image: url("https://raw.githack.com/adryd325/oneko.js/main/oneko.gif");
     animation: oneko 1s infinite;
 }
 
