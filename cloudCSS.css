@@ -33,6 +33,10 @@
     --settingsicons: 1;
     --si-size: 18px;
     --si-gap: 14px;
+    --font-code: "Consolas", "Andale Mono WT", "Andale Mono",
+        "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+        "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Monaco",
+        "Courier New", "Courier", "monospace";
 }
 
 [href^="/channels"]:hover,
@@ -885,4 +889,21 @@ img[role="presentation"] {
 
 .search_ac353c:not(.open_d3ab4e):hover .icon__5c8c7 {
     color: var(--interactive-active);
+}
+
+
+div[class^=pollBadgeDefault] svg path {
+    fill: COLOUR !important;
+}
+
+div[class^="pollBadgeDefault"] div[class^="text"] {
+    color: COLOUR !important;
+}
+
+div[class*="pollContainer"] {
+    background-color: COLOUR !important;
+}
+
+div[class*="pollContainer"] div[class^="answer"] {
+    background-color: COLOUR;
 }
