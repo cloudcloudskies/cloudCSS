@@ -844,9 +844,6 @@ textarea[placeholder*="Review @"] {
     font-size: 14px;
 }
 
-.attachmentContentItem__47a25 { width: unset !important; height: unset !important; }
-.loadingOverlay__35a04 { aspect-ratio: unset !important }
-
 .layer_f7d46a.stop-animations .container_d1f8f5 {
     filter: blur(5px);
     pointer-events: none;
