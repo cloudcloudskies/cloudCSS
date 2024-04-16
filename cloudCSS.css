@@ -904,3 +904,35 @@ div[class*="pollContainer"] {
 div[class*="pollContainer"] div[class^="answer"] {
     background-color: COLOUR;
 }
+
+[class^="grid_"] > :last-child:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.1rem 1rem 0.6rem 0.75rem;
+}
+
+[class^="grid_"] > :last-child:nth-child(2) [class^="embedTitle_"],
+[class^="grid_"] > :last-child:nth-child(2) [class^="embedDescription_"] {
+  padding-left: 12px;
+}
+
+[class^="messageListItem_"]:has([class^="botText_"]) > [class^="contents_"] {
+  display: none;
+}
+
+[class^="messageListItem_"]:has([class^="botText_"]) > [class*="groupStart_"] {
+  margin-top: -12px;
+}
+
+.container__62863:has([class^="grid_"] > :last-child:nth-child(2)) {
+  padding: 0;
+  top: 12px;
+}
+
+.message_ccca67:has([class^="grid_"] > :last-child:nth-child(2)):hover {
+  background-color: transparent !important;
+}
+
+[class^="gridContainer_"], [class^="embedWrapper_"] {
+  min-width: 525px;
+}
