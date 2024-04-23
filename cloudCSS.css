@@ -934,3 +934,14 @@ div[class*="pollContainer"] div[class^="answer"] {
 .appsIcon_ed21e9 {
     display: none;
 }
+
+.containerDefault_ae2ea4:hover + .container__342a0, .container__342a0:hover {
+  max-height: 1000px;
+  transition: max-height 1s ease;
+}
+
+.container__342a0 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
