@@ -8,7 +8,7 @@
 @import url(https://dablulite.github.io/css-snippets/NitroThemesFix/import.css);
 @import url(https://raw.githack.com/U8K50/randomDiscordThemesSnippets/main/DiscordThemeFix.css);
 @import url(https://dablulite.github.io/css-snippets/DisablePIP/import.css);
-@import url(https://dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/nocaption.theme.css);
 @import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
 @import url(https://raw.githack.com/cloudcloudskies/connectionsGlow/main/connectionGlow.css);
 @import url(https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css);
@@ -21,6 +21,9 @@
 @import url(https://minidiscordthemes.github.io/SettingsIcons/main.min.css);
 @import url(https://raw.githack.com/KrstlSkll69/vc-snippets/main/NSFWChannelRecolor.css);
 @import url(https://raw.githack.com/KrstlSkll69/vc-snippets/main/PrivateChannelRecolor.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/namebrightener.theme.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/betterusertags.theme.css);
+@import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/lowercaser.theme.css);
 @import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 
 
@@ -822,10 +825,6 @@ textarea[placeholder*="Review @"] {
     pointer-events: none;
 }
 
-.wordmarkWindows_ffbc5e::after {
-    content: "cloudCord";
-}
-
 [class*="inputWrapper"][class*="messageInputContainer"] {
     display: none;
 }
@@ -861,11 +860,6 @@ img[role="presentation"] {
 
 [class*="pollContainer_"] {
   background-color: var(--background-secondary);
-}
-
-* {
-    scrollbar-width: unset !important;
-    scrollbar-color: unset !important;
 }
 
 .search_ac353c:not(.open_d3ab4e) > .searchBar__5a20a {
