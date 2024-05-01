@@ -1,5 +1,7 @@
 /* CloudCSS: A CSS snippet with a lot of other snippets. */
 /* Credits to a lot of people on Vencord's Discord server! */
+@import url(https://gist.githack.com/TheSunCat/58fedaa19d6154ef3e4b2b676c286906/raw/b65adab0d398e28e89d689a794729b84baa7851e/DisblockOrigin.theme.css); /* Adblocker, don't remove! */
+
 @import url(https://raw.githack.com/nyakowint/theme-stuff/main/vencord_sc_icons.css);
 @import url(https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);
