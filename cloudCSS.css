@@ -12,7 +12,6 @@
 @import url(https://dablulite.github.io/css-snippets/DisablePIP/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterTitlebar/import.css);
 @import url(https://dablulite.github.io/css-snippets/BetterAuthApps/import.css);
-@import url(https://raw.githack.com/cloudcloudskies/connectionsGlow/main/connectionGlow.css);
 @import url(https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css);
 @import url(https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css);
 @import url(https://minidiscordthemes.github.io/Snippets/EfficientSettings/main.css);
@@ -26,6 +25,7 @@
 @import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/namebrightener.theme.css);
 @import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/betterusertags.theme.css);
 @import url(https://raw.githack.com/nvhhr/discordcss/main/snippets/lowercaser.theme.css);
+@import url(https://ukrio.is-a.dev/cssCord/Other/PrettyCA.css);
 @import url(https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 
 /* Settings */
@@ -39,9 +39,10 @@
     --settingsicons: 1;
     --si-size: 18px;
     --si-gap: 14px;
-    --font: 'figtree';
+    --font: 'Figtree';
     --font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-headline: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-code: "Consolas", "Andale Mono WT", "Andale Mono",
         "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
         "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Monaco",
@@ -934,13 +935,25 @@ div[class*="pollContainer"] div[class^="answer"] {
     display: none;
 }
 
-.containerDefault_ae2ea4:hover + .container__342a0, .container__342a0:hover {
-  max-height: 1000px;
-  transition: max-height 1s ease;
+#channels [class^=container_]:not([class*=containerWithMargin]) {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 4s ease;
 }
 
-.container__342a0 {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.25s ease;
+#channels [class^=containerDefault_]:hover + [class^=container_],
+#channels [class^=container_]:hover {
+    max-height: 100%;
+}
+
+[aria-label="Mute"] [aria-hidden="true"],
+[aria-label="Deafen"] [aria-hidden="true"]{
+    opacity: 0.4;
+}
+
+[class*="connectedAccountContainer_"] {
+    --CA-radius: 16px;
+    --CA-icon-color: white;
+    --CA-checkmark-color: rgba(0, 0, 0, 0.65);
+    --CA-background: var(--profile-gradient-secondary-color);
 }
